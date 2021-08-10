@@ -1,0 +1,132 @@
+body {
+  font-family: 'Roboto', 'Arial', sans-serif !important;
+  font-size: 18px !important;
+  /*line-height: 1.7 !important;*/
+  color: #919191 !important;
+}
+
+.header {
+  background-color: #0000a3;
+  text-align: center;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+  max-width: 80vw;
+  /*text-align: center;*/
+}
+
+.nav {
+  /*font-size: 0;*/
+  padding: 0;
+  display: inline-block;
+}
+
+.nav_item {
+  display: inline-block;
+  margin-left: 40px;
+  padding: 20px 0;
+}
+
+.nav_link {
+  display: inline-block;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+
+.bWrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.about_me_section{
+  flex-direction: column;
+  min-height: 360px;
+}
+
+.section_wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.main_info__title {
+  padding-top: 0;
+}
+
+.title {
+  padding-top: 5vw;
+  margin-bottom: 2vw;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-weight: bold;
+  color: #566366;
+}
+
+.main-info__text {
+  /*margin-bottom: 20px;*/
+  width: 100%;
+  font-size: 1.1rem;
+}
+
+/*.minor-info__photo {*/
+/*  display: inline-block;*/
+/*  vertical-align: top;*/
+/*  padding-top: 5vw;*/
+/*  border-radius: 5%;*/
+/*  width: 350px;*/
+/*  width: 491px;*/
+/*  height: 608px;*/
+/*  background: url('/dist/img/my_photo.jpg') no-repeat;*/
+/*  background-size: auto;*/
+/*  background-size: cover;*/
+/*  overflow: hidden;*/
+/*}*/
+
+.img-circle {
+  border-radius: 5%;
+  width: 350px;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+
+.about_me_qualities_section{
+  flex-direction: column;
+  min-height: 360px;
+  background: #F1F5EC;
+}
+
+header hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.text_wrapper{
+  text-align: center;
+}
+
+.info_text_wrapper{
+  margin-left: 2vw;
+}
+
+.resume_section{
+  flex-direction: column;
+  min-height: 360px;
+  background: #F1F5EC;
+}
+
+
