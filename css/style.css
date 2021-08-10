@@ -129,4 +129,26 @@ header hr {
   background: #F1F5EC;
 }
 
+.downloadButton {
+  display: inline-block;
+  padding: 15px 1.87vw;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+  background: #0000a3;
+  border-radius: 8px;
 
+}
+
+.downloadButtonWrapper{
+  justify-content: center;
+  display: flex;
+  margin-top: 3vw;
+}
