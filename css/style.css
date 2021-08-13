@@ -63,7 +63,7 @@ body {
 }
 
 .title {
-  padding-top: 5vw;
+  padding-top: 3vw;
   margin-bottom: 2vw;
   font-size: 30px;
   text-transform: uppercase;
@@ -140,7 +140,7 @@ header hr {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
-  opacity: 0.7;
+  /*opacity: 0.7;*/
   transition: opacity 0.2s ease;
   background: #0000a3;
   border-radius: 8px;
@@ -151,4 +151,58 @@ header hr {
   justify-content: center;
   display: flex;
   margin-top: 3vw;
+}
+
+.skills__list {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 2vw;
+  margin-top: 3vw;
+  width: 80%;
+}
+
+.skills-items {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+
+.skill-item {
+  margin-bottom: 20px;
+}
+
+.secondary-title {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.skill-item__percent {
+  box-sizing: border-box;
+  padding-left: 50%;
+  height: 30px;
+  color: #fff;
+  font-weight: bold;
+  background-color: #0000a3;
+}
+
+.skill-item__progress {
+  width: 100%;
+  height: 30px;
+  background-color: #f2f2f1;
+}
+.percent-80 {
+  width: 80%;
+}
+
+.skills_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.education__info{
+
+  padding-top: 30px;
+  border-top: 1px solid #ccc;
+
 }
